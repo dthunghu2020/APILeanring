@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtCoord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coord"
+        android:textSize="15sp" />
+
+
+    <!--Fragment-->
+<!--    <android.support.v7.widget.RecyclerView-->
+<!--        android:id="@+id/rcvWeather"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:scrollbars="none" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clipToPadding="false"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/txtMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Main"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtWind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Wind"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtClouds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Clouds"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtSys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Sys"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtSOAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="SOAR"
+        android:textSize="15sp" />
+</LinearLayout>
